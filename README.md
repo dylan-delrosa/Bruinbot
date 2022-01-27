@@ -1,3 +1,3 @@
 # Bruinbot
 #shared code for Bruinbot project
-#code for drivetrain, payload, etc.
+#code for various subsystems: drivetrain, payload, head system, etc.
