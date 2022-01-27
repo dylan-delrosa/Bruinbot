@@ -9,7 +9,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(ENCA,INPUT);
   pinMode(ENCB,INPUT);
-  attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
+  #attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
   
   pinMode(PWM,OUTPUT);
   pinMode(IN1,OUTPUT);
